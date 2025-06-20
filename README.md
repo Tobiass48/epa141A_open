@@ -1,6 +1,6 @@
 # EPA141A Flood Policy Optimization (IJssel River) - Rijkswaterstaat
 
-As part of EPA141A, Model Based Decision Making, this repository contains the final assignment created by group 37 representing Rijkswaterstaat.
+As part of EPA141A, Model Based Decision Making, this repository contains the final assignment created by group 8 representing Rijkswaterstaat.
 This project builds upon the original model available at https://github.com/quaquel/epa141A_open.
 
 Authors:
