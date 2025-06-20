@@ -1,0 +1,177 @@
+COMPLETE REQUIRED FILES FOR IJssel_River_MORDM_Analysis.ipynb
+====================================================================
+
+PYTHON MODULES AND SCRIPTS:
+---------------------------
+1. problem_formulation.py                           # Core model configuration
+2. dike_model_function.py                          # Dike model functions  
+3. dike_model_simulation.py                        # Simulation functions
+4. dike_model_optimization.py                      # Optimization functions
+5. funs_dikes.py                                   # Dike-related functions
+6. funs_economy.py                                 # Economic functions
+7. funs_generate_network.py                       # Network generation
+8. funs_hydrostat.py                              # Hydrological functions
+9. ../Week 5-6 - robustness and direct search/assignment_10_scenario_selection.py  # Scenario selection
+
+CORE DATA FILES:
+----------------
+10. data/dikeIjssel_alldata.xlsx                  # Main dike data
+11. data/dikeIjssel.xlsx                          # Dike specifications
+12. data/EWS.xlsx                                 # Early Warning System data
+
+HYDROLOGY DATA:
+---------------
+13. data/hydrology/Qpeak_unisamples125_12500.txt  # Peak discharge samples
+14. data/hydrology/wave_shapes.xls                # Wave shape data
+15. data/hydrology/werklijn_params.xlsx           # Working line parameters
+
+FRAGILITY CURVES:
+-----------------
+16. data/fragcurves/calfactors_pf1250.xlsx        # Calibration factors
+17. data/fragcurves/frag_curves.xlsx              # Fragility curves
+
+RATING CURVES:
+--------------
+18. data/rating_curves/A.1_ratingcurve_new.txt    # Rating curve A.1
+19. data/rating_curves/A.2_ratingcurve_new.txt    # Rating curve A.2
+20. data/rating_curves/A.3_ratingcurve_new.txt    # Rating curve A.3
+21. data/rating_curves/A.4_ratingcurve_new.txt    # Rating curve A.4
+22. data/rating_curves/A.5_ratingcurve_new.txt    # Rating curve A.5
+23. data/rating_curves/Ijsseldischarges_16000.csv # Ijssel discharges
+24. data/rating_curves/Ijsseldischarges_19000.csv # Ijssel discharges
+25. data/rating_curves/Ijsselwaterlevels_16000.csv # Ijssel water levels
+26. data/rating_curves/Ijsselwaterlevels_19000.csv # Ijssel water levels
+
+LOSS TABLES:
+------------
+27. data/losses_tables/A.1_lossestable.xlsx       # Losses table A.1
+28. data/losses_tables/A.2_lossestable.xlsx       # Losses table A.2
+29. data/losses_tables/A.3_lossestable.xlsx       # Losses table A.3
+30. data/losses_tables/A.4_lossestable.xlsx       # Losses table A.4
+31. data/losses_tables/A.5_lossestable.xlsx       # Losses table A.5
+
+MUSKINGUM DATA:
+---------------
+32. data/muskingum/params.xlsx                     # Muskingum parameters
+
+RFR STRATEGIES:
+---------------
+33. data/rfr_strategies.xlsx                       # Room for River strategies
+
+OPTIMIZATION RESULTS (if running from saved results):
+-----------------------------------------------------
+34. IJssel_MORDM_archive_nfe10000.csv             # Optimization archive
+35. IJssel_MORDM_convergence_nfe10000.csv         # Convergence data
+36. IJssel_MORDM_archive_nfe125.csv               # Quick test archive
+37. IJssel_MORDM_convergence_nfe125.csv           # Quick test convergence
+
+ROBUSTNESS ANALYSIS RESULTS:
+----------------------------
+38. IJssel_robustness_experiments_20250616_152459.csv  # Robustness experiments
+39. IJssel_robustness_outcomes_20250616_152459.csv     # Robustness outcomes
+40. IJssel_robustness_experiments_n25.csv              # Small test results
+41. IJssel_robustness_experiments_n1000.csv            # Full robustness experiments
+42. IJssel_robustness_outcomes_n1000.csv               # Full robustness outcomes
+43. selected_scenarios.csv                             # Selected scenarios from PRIM
+
+MULTI-SCENARIO MORDM RESULTS:
+-----------------------------
+44. results/MS-MORDM_0.25_10000_archive_scen0.csv     # Scenario 0 archive
+45. results/MS-MORDM_0.25_10000_archive_scen1.csv     # Scenario 1 archive  
+46. results/MS-MORDM_0.25_10000_archive_scen2.csv     # Scenario 2 archive
+47. results/MS-MORDM_0.25_10000_archive_scen3.csv     # Scenario 3 archive
+48. results/MS-MORDM_reevaluation_0.25_100scen_old.tar.gz  # Re-evaluation results
+49. MS-MORDM_reevaluation_nscen100_final.tar.gz            # Final re-evaluation
+
+SOBOL ANALYSIS RESULTS (for sensitivity analysis):
+-------------------------------------------------
+50. IJssel_SOBOL_indices_n16.pkl                  # SOBOL indices (pickle format)
+51. IJssel_SOBOL_summary_n16.csv                  # SOBOL summary results
+52. IJssel_SOBOL_plots_n16_20250617_122046.png    # SOBOL visualization
+53. MS_MORDM_SOBOL_indices_20250620_141223.pkl    # Multi-scenario SOBOL indices
+54. MS_MORDM_SOBOL_summary_20250620_141223.csv    # Multi-scenario SOBOL summary
+
+DIRECTORIES REQUIRED:
+--------------------
+55. results/                                       # Results output directory
+56. data/                                         # Main data directory
+57. data/hydrology/                               # Hydrology subdirectory
+58. data/fragcurves/                              # Fragility curves subdirectory
+59. data/rating_curves/                           # Rating curves subdirectory
+60. data/losses_tables/                           # Losses tables subdirectory
+61. data/muskingum/                               # Muskingum subdirectory
+
+ANALYSIS OUTPUT FILES (generated during execution):
+--------------------------------------------------
+62. MS-MORDM_max_regret_analysis.csv              # Max regret analysis
+63. MS-MORDM_domain_criterion_analysis.csv        # Domain criterion
+64. MS-MORDM_policy_rankings.csv                  # Policy rankings
+65. MS-MORDM_top_10_recommendations.csv           # Top recommendations
+
+VISUALIZATION FILES (generated during execution):
+-------------------------------------------------
+66. MS_MORDM_robust_experiments_detailed.csv      # Detailed experiments for visualization
+67. MS_MORDM_parallel_SNR_top20.png              # SNR parallel coordinates plot
+68. MS_MORDM_parallel_SNR.png                    # Full SNR parallel coordinates
+69. MS_MORDM_top_10_max_regret_heatmap.png       # Maximum regret heatmap
+70. MS_MORDM_top_10_robust_regret_heatmap.png    # Robust policies regret heatmap
+71. MS_MORDM_FeatureScores_*_[timestamp].png     # Feature importance plots (multiple files)
+72. MS_MORDM_FeatureScores_Heatmap_[timestamp].png # Feature importance heatmap
+
+PYTHON DEPENDENCIES:
+--------------------
+Required packages:
+- pandas
+- numpy  
+- matplotlib
+- seaborn
+- ema_workbench
+- SALib
+- scipy
+
+Built-in modules:
+- warnings
+- datetime  
+- itertools
+- math
+- sys
+- os
+
+EXECUTION MODES:
+---------------
+The notebook supports two execution modes:
+
+QUICK_TEST = True (Testing/Development):
+- NFE = 125 (fast optimization)
+- 25 re-evaluation scenarios
+- 32 SOBOL samples
+- Runtime: ~70-85 minutes
+- Suitable for testing and debugging
+
+QUICK_TEST = False (Production):
+- NFE = 10000 (full optimization) 
+- 1000 re-evaluation scenarios
+- 64 SOBOL samples
+- Runtime: ~10-13 hours
+- Full analysis quality
+
+WORKFLOW DEPENDENCIES:
+---------------------
+1. Single-Scenario MORDM must complete before Multi-Scenario MORDM
+2. Robustness analysis requires completed optimization results
+3. PRIM scenario discovery needs robustness results
+4. Multi-Scenario optimization needs selected scenarios
+5. Feature scoring is alternative to full SOBOL analysis
+
+IMPORTANT NOTES:
+---------------
+1. Timestamps in filenames will vary between runs - update paths accordingly
+2. The results/ directory must exist before running multi-scenario optimization
+3. Some cells are marked "don't run again" as results are already saved
+4. External robustness analysis was run separately to avoid notebook interruptions
+5. File paths assume the standard EPA course directory structure
+6. Rating curve PNG files are optional but useful for visualization
+7. SOBOL analysis requires significant computational resources in production mode
+8. Some files have specific timestamps that need to be updated based on your runs
+9. The notebook can recover from saved results if interrupted
+10. Feature scoring provides faster sensitivity analysis alternative to SOBOL 

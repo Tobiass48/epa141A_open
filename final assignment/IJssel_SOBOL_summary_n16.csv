@@ -1,0 +1,96 @@
+Outcome,Uncertainty,S1,S1_conf,ST,ST_conf
+Expected Annual Damage,A.0_ID flood wave shape,-0.003974408231434421,0.058274245515100735,0.012636223798244738,0.016578043005756715
+Expected Annual Damage,A.1_Bmax,-0.022789610926177047,0.05083880498468309,0.014816293471236879,0.031444570296483655
+Expected Annual Damage,A.1_Brate,0.0024409101734016257,0.005056093871719961,7.477526701042323e-05,0.0001508655841377542
+Expected Annual Damage,A.1_pfail,0.7770057893818978,0.46613825750270027,0.7039798541885762,0.44193156716477633
+Expected Annual Damage,A.2_Bmax,0.010664693735191329,0.019172085968398027,0.0007359122967780289,0.0013828652765395543
+Expected Annual Damage,A.2_Brate,0.00042181807594292054,0.0009525996554381395,1.2815256866997197e-05,2.3144108765737977e-05
+Expected Annual Damage,A.2_pfail,-0.09797862902228012,0.08462086569008952,0.015987070696186993,0.016349845967275515
+Expected Annual Damage,A.3_Bmax,0.0074355789757405396,0.016443938709399294,0.00032556874501159634,0.0007200021015355496
+Expected Annual Damage,A.3_Brate,0.0,0.0,0.0,0.0
+Expected Annual Damage,A.3_pfail,0.17213638607745266,0.4498388615092166,0.31525913209843387,0.26736447021980014
+Expected Annual Damage,A.4_Bmax,0.0,0.0,0.0,0.0
+Expected Annual Damage,A.4_Brate,0.0,0.0,0.0,0.0
+Expected Annual Damage,A.4_pfail,0.0006190506965571102,0.034750173990030546,0.0029305456785826563,0.0035973278486523294
+Expected Annual Damage,A.5_Bmax,0.0,0.0,0.0,0.0
+Expected Annual Damage,A.5_Brate,0.0,0.0,0.0,0.0
+Expected Annual Damage,A.5_pfail,-0.04241467331211079,0.08276892027331745,0.020272484508353318,0.024860194822120766
+Expected Annual Damage,discount rate 0,0.06043576232054809,0.14995666906408886,0.028895715811993607,0.025585590689605114
+Expected Annual Damage,discount rate 1,0.05893337465334265,0.10349158208467527,0.03029463713415053,0.028678932650972096
+Expected Annual Damage,discount rate 2,-0.03284453679032034,0.10058013919481454,0.02429384821201515,0.020942208457403678
+Dike Investment Costs,A.0_ID flood wave shape,,,,
+Dike Investment Costs,A.1_Bmax,,,,
+Dike Investment Costs,A.1_Brate,,,,
+Dike Investment Costs,A.1_pfail,,,,
+Dike Investment Costs,A.2_Bmax,,,,
+Dike Investment Costs,A.2_Brate,,,,
+Dike Investment Costs,A.2_pfail,,,,
+Dike Investment Costs,A.3_Bmax,,,,
+Dike Investment Costs,A.3_Brate,,,,
+Dike Investment Costs,A.3_pfail,,,,
+Dike Investment Costs,A.4_Bmax,,,,
+Dike Investment Costs,A.4_Brate,,,,
+Dike Investment Costs,A.4_pfail,,,,
+Dike Investment Costs,A.5_Bmax,,,,
+Dike Investment Costs,A.5_Brate,,,,
+Dike Investment Costs,A.5_pfail,,,,
+Dike Investment Costs,discount rate 0,,,,
+Dike Investment Costs,discount rate 1,,,,
+Dike Investment Costs,discount rate 2,,,,
+RfR Investment Costs,A.0_ID flood wave shape,,,,
+RfR Investment Costs,A.1_Bmax,,,,
+RfR Investment Costs,A.1_Brate,,,,
+RfR Investment Costs,A.1_pfail,,,,
+RfR Investment Costs,A.2_Bmax,,,,
+RfR Investment Costs,A.2_Brate,,,,
+RfR Investment Costs,A.2_pfail,,,,
+RfR Investment Costs,A.3_Bmax,,,,
+RfR Investment Costs,A.3_Brate,,,,
+RfR Investment Costs,A.3_pfail,,,,
+RfR Investment Costs,A.4_Bmax,,,,
+RfR Investment Costs,A.4_Brate,,,,
+RfR Investment Costs,A.4_pfail,,,,
+RfR Investment Costs,A.5_Bmax,,,,
+RfR Investment Costs,A.5_Brate,,,,
+RfR Investment Costs,A.5_pfail,,,,
+RfR Investment Costs,discount rate 0,,,,
+RfR Investment Costs,discount rate 1,,,,
+RfR Investment Costs,discount rate 2,,,,
+Evacuation Costs,A.0_ID flood wave shape,,,,
+Evacuation Costs,A.1_Bmax,,,,
+Evacuation Costs,A.1_Brate,,,,
+Evacuation Costs,A.1_pfail,,,,
+Evacuation Costs,A.2_Bmax,,,,
+Evacuation Costs,A.2_Brate,,,,
+Evacuation Costs,A.2_pfail,,,,
+Evacuation Costs,A.3_Bmax,,,,
+Evacuation Costs,A.3_Brate,,,,
+Evacuation Costs,A.3_pfail,,,,
+Evacuation Costs,A.4_Bmax,,,,
+Evacuation Costs,A.4_Brate,,,,
+Evacuation Costs,A.4_pfail,,,,
+Evacuation Costs,A.5_Bmax,,,,
+Evacuation Costs,A.5_Brate,,,,
+Evacuation Costs,A.5_pfail,,,,
+Evacuation Costs,discount rate 0,,,,
+Evacuation Costs,discount rate 1,,,,
+Evacuation Costs,discount rate 2,,,,
+Expected Number of Deaths,A.0_ID flood wave shape,-0.025374387444454197,0.06887548273206816,0.009275057196106468,0.00904123202995344
+Expected Number of Deaths,A.1_Bmax,0.05645626711111045,0.14097580799603626,0.05219589996748942,0.12339636582600094
+Expected Number of Deaths,A.1_Brate,0.0012598742730439401,0.0028094034076795033,3.86501355361285e-05,8.534249706208645e-05
+Expected Number of Deaths,A.1_pfail,0.3944413584572179,0.3073956939695895,0.2470384355481955,0.19720315982154793
+Expected Number of Deaths,A.2_Bmax,0.0031561854325330395,0.004802634465582985,0.001971573515527586,0.0036122497751394735
+Expected Number of Deaths,A.2_Brate,0.0005378868452643948,0.0007416610661921153,6.287879925179407e-06,1.4272711521155923e-05
+Expected Number of Deaths,A.2_pfail,-0.08031791030650817,0.09220524524779973,0.006799716666951373,0.005896210100441483
+Expected Number of Deaths,A.3_Bmax,0.004300149535980091,0.009259547084030043,0.00022820924688521656,0.0004914048334514668
+Expected Number of Deaths,A.3_Brate,0.0,0.0,0.0,0.0
+Expected Number of Deaths,A.3_pfail,0.9564155155919852,0.6978003026627971,0.9786861041895425,0.3752233733152571
+Expected Number of Deaths,A.4_Bmax,0.0,0.0,0.0,0.0
+Expected Number of Deaths,A.4_Brate,0.0,0.0,0.0,0.0
+Expected Number of Deaths,A.4_pfail,0.015469938466121982,0.04024035389174277,0.0012432255455067471,0.0022139080816274024
+Expected Number of Deaths,A.5_Bmax,0.0,0.0,0.0,0.0
+Expected Number of Deaths,A.5_Brate,0.0,0.0,0.0,0.0
+Expected Number of Deaths,A.5_pfail,-0.019666187253555387,0.05521586093762348,0.009271744912102049,0.013170527958637672
+Expected Number of Deaths,discount rate 0,0.0,0.0,0.0,0.0
+Expected Number of Deaths,discount rate 1,0.0,0.0,0.0,0.0
+Expected Number of Deaths,discount rate 2,0.0,0.0,0.0,0.0
